@@ -1,0 +1,1 @@
+ G:\\pertemuan01\\pertemuan01\\.dart_tool\\flutter_build\\ff1ca5edc3f234e1196a975025506870\\native_assets.yaml: 

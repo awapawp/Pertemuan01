@@ -1,0 +1,10 @@
+^G:\PERTEMUAN01\PERTEMUAN01\BUILD\WINDOWS\X64\CMAKEFILES\6D172FC764F5B4F03D0064647B0187BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/pertemuan01/pertemuan01/windows -BG:/pertemuan01/pertemuan01/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/pertemuan01/pertemuan01/build/windows/x64/pertemuan01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
